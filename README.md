@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Steps and run the swagger api for employee task management application
+
+1. php artisan migrate
+
+2. php artisan optimize:clear
+
+3. php artisan l5-swagger:generate
+
+4. http://127.0.0.1:8000/api/documentation#/
+
+5. php artisan serve
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
